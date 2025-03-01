@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+    margin: 50px auto;
+  }
+  
+  .botao {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(4, 99, 9); /* Cor de fundo do botão */
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Efeito de transição suave */
+  
+    margin: 10px;
+  }
+  
+  .botao:hover {
+    background-color: #055509; /* Mudar cor de fundo ao passar o mouse */
+  }

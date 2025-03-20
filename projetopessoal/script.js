@@ -9,5 +9,4 @@ function criarUsuario() {
   
     // Exibir mensagem (pode ser substituída por lógica de envio para um servidor)
     alert("Usuário criado!\n\nNome de usuário: " + username + "\nE-mail: " + email);
-  }
-  
+  }  

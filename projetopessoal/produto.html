@@ -1,36 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Meu Site</title>
-</head>
-<body>
-    <header>
-        <h1>Site Teste</h1>
-        <li><a href="https://www.youtube.com/@sejaxpert">YOUTUBE Xpert!</a><li>
-        <nav>
-            <ul>
-                <li><a href="trabalho2.html">Início</a></li>
-                <li><a href="Trabalho2pag2.html">Produtos</a></li>
-                <li><a href="Trabalho2pag3.html">Contato</a></li>                                                                                
-                <li><a href="saccliente.html">Sac Cliente</a></li>                                                                                        
-                  <body>
-                    <a href="Usuário.trabalho2.html" class="botao-personalizado">Crie seu Usuário</a>
-                  </body>
-            </ul>
-        </nav>
-    </header>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="style3.css">
-</head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style2.css"
-<body>
+
     <style>
         body {
             font-family: Arial, sans-serif;
+            margin: 0;
+            min-height: 100vh;
+            background: linear-gradient(to right, #ff9900, #ff6600, #ff3300);
         }
 
         .container {
@@ -42,39 +25,42 @@
         .produto {
             border: 1px solid #ccc;
             padding: 10px;
-            margin-bottom: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
         }
     </style>
 </head>
-
+<body>
+    <header>
+        <h1>Site Teste</h1>
+        <ul>
+            <li><a href="https://www.youtube.com/@BitzSoftwares">YOUTUBE BITZ!</a></li>
+        </ul>
+        <nav>
+            <ul>
+                <li><a href="trabalho2.html">Início</a></li>
+                <li><a href="Trabalho2pag2.html">Produtos</a></li>
+                <li><a href="Trabalho2pag3.html">Contato</a></li>                                                                                
+                <li><a href="saccliente.html">Sac Cliente</a></li>                                                                                        
+                <li><a href="Usuário.trabalho2.html" class="botao-personalizado">Crie seu Usuário</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <div class="produto">
         <h2>Camisa New Era</h2>
-        <img src="data:image/png;base64,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">
+        <img src="data:image/png;base64,..."> <!-- (imagem truncada para brevidade) -->
         <p>Camisa Casual Elegante: Seu Novo Básico Favorito!
             Apresentamos nossa camisa casual, perfeita para quem valoriza estilo e conforto. Feita com tecido macio e respirável, esta camisa oferece uma sensação agradável durante todo o dia. Seu design moderno e versátil permite fácil combinação com diferentes looks, tornando-a uma escolha ideal para ocasiões diversas. Vista-se com elegância e simplicidade. Esta camisa é a escolha perfeita para um visual sofisticado e relaxado.</p>
         <p>Preço: R$ 150,00</p>        
-         <form action="salvar_dados.php" method="post">
+        <form action="salvar_dados.php" method="post">
             <input type="submit" value="Comprar">
         </form>
     </div>
-
-
-
-
-
 
     <footer>
         <p>&copy; Site do lois</p>
     </footer>
 </body>
-
 </html>
-
-
-
-
-
-
-
-

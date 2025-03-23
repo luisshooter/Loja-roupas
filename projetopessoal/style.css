@@ -59,7 +59,7 @@ footer {
     font-size: 16px;
     text-align: center;
     text-decoration: none;
-    background: linear-gradient(to right, #ff9900, #ff6600, #ff3300);
+    background-color: #f55a00;
     color: #ffffff; /* Cor do texto */
     border-radius: 5px; /* Borda arredondada */
     transition: background-color 0.3s ease; /* Efeito de transição suave */
@@ -67,7 +67,7 @@ footer {
   
   /* Efeito de hover para o botão do cabeçalho quando passa o botão por cima (botao de criar usuario) */
   .botao-personalizado:hover {
-    background-color: #296203; /* Mudar cor de fundo ao passar o mouse */
+    background-color: #fd0303; /* Mudar cor de fundo ao passar o mouse */
   }
 
 
@@ -99,7 +99,7 @@ footer {
   }
   
   button {
-    background-color: #4CAF50;/*Cor fundo button normal*/
+    background-color: #f06e05;/*Cor fundo button normal*/
     color: #fff; /*Cor letra button  */
     padding: 10px 15px;
     border: none;
@@ -108,7 +108,7 @@ footer {
   }
   
   button:hover {
-    background-color: #053307;/* Cor fundo button hover */
+    background-color: #f51000;/* Cor fundo button hover */
   }
 
 

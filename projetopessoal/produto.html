@@ -9,12 +9,18 @@
     <link rel="stylesheet" href="style3.css">
 
     <style>
+        .produto {
+            background: linear-gradient(to right, #ff9900, #ff6600, #ff3300);
+
+        }
+        h2{
+            color :#ff3300
+        }
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             min-height: 100vh;
             background: linear-gradient(to right, #ff9900, #ff6600, #ff3300);
-        }
 
         .container {
             max-width: 800px;
@@ -50,7 +56,7 @@
 
     <div class="produto">
         <h2>Camisa New Era</h2>
-        <img src="data:image/png;base64,..."> <!-- (imagem truncada para brevidade) -->
+        <img src="data:image/jpeg;base64,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"> <!-- (imagem truncada para brevidade) -->
         <p>Camisa Casual Elegante: Seu Novo Básico Favorito!
             Apresentamos nossa camisa casual, perfeita para quem valoriza estilo e conforto. Feita com tecido macio e respirável, esta camisa oferece uma sensação agradável durante todo o dia. Seu design moderno e versátil permite fácil combinação com diferentes looks, tornando-a uma escolha ideal para ocasiões diversas. Vista-se com elegância e simplicidade. Esta camisa é a escolha perfeita para um visual sofisticado e relaxado.</p>
         <p>Preço: R$ 150,00</p>        

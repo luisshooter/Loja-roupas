@@ -7,4 +7,11 @@ function fazerPergunta() {
       alert("Operação cancelada.");
     }
   }
-  
+  async function apiget() {
+    const response = await fetch(
+      "https://pokeapi.co/api/v2/pokemon/pikachu"
+    );
+    const variavel = await response.json();
+    console.log(variavel.forms,'teste');
+  }
+  apiget();
